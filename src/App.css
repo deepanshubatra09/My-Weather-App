@@ -1,0 +1,43 @@
+.bGround {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPtLob_pInfGtuQYylFDJb2kMb2le1A9FxKidSOezhklI5JYtLWjk8hQKGAwXjSYIEoxQ&usqp=CAU");
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+ /* background-repeat: no-repeat;*/
+  background-size: 100%;
+}
+#text{
+  color:white;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.inputBox{
+  margin-bottom: 8px;
+  border-radius: 10px;
+  border:white;
+}
+.ResultBox{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+  margin:auto;
+  margin-top: 15px;
+  height: 270px;
+  width: 500px;
+}
+.icon{
+  width: 100px;
+  height:100px;
+  margin-top: 10px;
+}
+.wtrCity{
+  font-size:41px;
+  margin-top: 16px;
+  margin-bottom: -1px;
+}
+.wtrTemp{
+  font-size: 36px;
+}
